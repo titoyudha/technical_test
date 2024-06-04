@@ -5,7 +5,16 @@
 
 ## SQL
 
-To run tests, run the following command
+Buatlah design sistem database dengan syarat sebagai berikut:
+
+• menyimpan informasi Purchase Order
+• menyimpan informasi User
+• menyimpan informasi delivery order
+• menyimpan informasi order item
+Relation:
+√ - 1 purchase order bisa memiliki lebih dari 1 delivery order
+√ - 1 purchase order memiliki banyak order item
+√ - 1 user memiliki beberapa purchase order
 
 ```bash
   -- Tabel untuk menyimpan user
